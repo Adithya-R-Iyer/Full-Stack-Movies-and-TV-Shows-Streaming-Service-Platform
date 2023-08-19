@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-
 import "./Navbar.scss"
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsIcon from '@mui/icons-material/Notifications';
