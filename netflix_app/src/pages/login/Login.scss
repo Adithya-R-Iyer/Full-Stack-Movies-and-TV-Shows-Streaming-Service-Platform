@@ -1,0 +1,158 @@
+.login {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    background : linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.7) 100%), url("https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .top {
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+
+            .logo {
+                height: 40px;
+            }
+        }
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+
+        form {
+            width: 350px;
+            height: 650px;
+            padding: 30px 75px;
+            border-radius: 5px;
+            background-color: rgba($color: #000000, $alpha: 0.75);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            input {
+                height: 55px;
+                border-radius: 5px;
+                background-color: rgb(67, 63, 63);
+                color: white;
+                padding-left: 10px;
+                margin-top: 15px;
+                font-size: 18px;
+
+                &::placeholder {
+                    color: lightgray;
+                }
+            }
+
+            button {
+                background-color: red;
+                color: white;
+                height: 50px;
+                border-radius: 5px;
+                border: none;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+                margin-top: 40px;
+            }
+
+            .subWrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                color: lightgray;
+                font-size: 14px;
+                margin-top: -10px;
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    span {
+                        padding-top: 10px;
+                        margin-left: 4px;
+                    }
+                }
+
+                p{
+                    margin-top: 25px;
+                }
+            }
+
+            p{
+                color: lightgray;
+                margin-top: 5px;
+                margin-top: 60px;
+
+                b{
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+
+            small {
+                margin-top: 5px;
+
+                b{
+                    color: blue;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .footer {
+        width: 100%;
+        height: 300px;
+        margin-top: 100px;
+        background-color: rgba($color: #000000, $alpha: 0.65);
+
+        .wrapper {
+
+            width: 800px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 300px;
+            padding-top: 25px;
+            color: rgb(142, 139, 139) !important;
+
+            // p{
+               
+            //     color: lightgray;
+            // }
+    
+            .tags {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                p {
+                    margin-right: 100px;
+                    cursor: pointer;
+                }
+            }
+
+            select {
+                margin-top: 25px;
+                height: 40px;
+                width: 100px;
+                background: transparent;
+                color: rgb(142, 139, 139) !important;
+                cursor: pointer;
+            }
+        }
+    }
+}
