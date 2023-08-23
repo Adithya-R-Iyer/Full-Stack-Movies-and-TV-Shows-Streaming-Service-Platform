@@ -3,3 +3,4 @@
 # dependencies
 /netflix_app/node_modules
 /netflix_server/node_modules
+.env
