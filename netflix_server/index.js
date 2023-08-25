@@ -5,6 +5,7 @@ const dotenv = require("dotenv")
 const authRoute = require("./routes/auth.js")
 const usersRoute = require("./routes/users.js")
 const moviesRoute = require("./routes/movies.js")
+const listsRoute = require("./routes/lists.js")
 
 dotenv.config()
 
@@ -17,6 +18,7 @@ app.use(express.json()) //parses incoming req with json body
 app.use("/netflix_server/auth/", authRoute);
 app.use("/netflix_server/users/", usersRoute);
 app.use("/netflix_server/movies/", moviesRoute);
+app.use("/netflix_server/lists/", listsRoute);
 
 app.listen(8800, ()=>{
     console.log("Netflix Server is running!!")
