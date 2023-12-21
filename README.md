@@ -1,1 +1,1 @@
-# Netflix-Clone
+# Full Stack Movies and TV Shows Streaming Service Platform
