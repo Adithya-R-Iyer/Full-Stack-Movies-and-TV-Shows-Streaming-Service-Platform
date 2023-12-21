@@ -40,7 +40,6 @@ const List = () => {
             <ListItem index={7}/>
             <ListItem index={8}/>
             <ListItem index={9}/>
-            <ListItem index={10}/>
         </div>
         <ArrowForwardIosOutlinedIcon className='sliderArrow right' onClick={()=>{handleClick("right")}}/>
       </div>
